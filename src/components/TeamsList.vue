@@ -43,20 +43,14 @@
 
 
 <script>
-import axios from "axios";
 
 export default {
   name: "Equipos",
+  props: ['teams'],
   data() {
     return {
-      teams: [],
       search: ""
     };
-  },
-  created: function() {
-    axios.get("https://api.collegefootballdata.com/teams").then(res => {
-      this.teams = res.data;
-    });
   },
   computed: {
     filteredTeams: function(){
