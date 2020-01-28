@@ -20,7 +20,7 @@
             <i class="fas fa-heart text-lg"></i>
           </button>
 
-          <img class="h-16 w-16 rounded-full mx-auto"  :src="team.logos">
+          <img class="h-16 w-16 rounded-full mx-auto"  :src="it ">
           
           <h4 class="font-bold text-grey-700 text-lg mb-2">{{ team.school }}</h4>
           <h4 class="font-bold text-grey-700 text-lg mb-2">{{ team.abbreviation }}</h4>

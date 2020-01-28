@@ -3,7 +3,7 @@
     <!--Menu Component-->
     <my-menu></my-menu>
     <!--Listado de equipos-->
-   <listado-favoritos></listado-favoritos>
+   <teams-list></teams-list>
 
 
   </div>
@@ -11,13 +11,13 @@
 
 <script>
 import Menu from "./components/Menu";
-import Favoritos from "./components/ListadoDeFavoritos"
+import Teams from "./components/TeamsList"
 
 export default {
   name: "app",
   components: {
     "my-menu": Menu,
-    "listado-favoritos": Favoritos
+    "teams-list": Teams
   }
 };
 </script>
