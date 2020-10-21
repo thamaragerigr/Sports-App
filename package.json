@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.4.4",
-    "tailwindcss": "^1.6.2",
+    "tailwindcss": "^1.9.5",
     "vue": "^2.6.10"
   },
   "devDependencies": {
